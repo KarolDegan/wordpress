@@ -56,6 +56,18 @@
 
 - Salve as alterações como `wp-config.php` na mesma pasta
 
-### Pagina de boas vindas
+## Iniciar a Instalação do WordPress no Navegador
 
-5Bxn%7rXgK&pCtyFDy
+- No navegador, acesse o endereço: `localhost/wordpress`
+
+- Escolha o idioma desejado
+
+- Preencha os campos do formulário com as informações do seu site.
+
+<img src="https://github.com/KarolDegan/wordpress/blob/main/imagens/promeira.png?raw=true" width="400" height="400"  style="margin-left: 150px; margin-bottom: 20px; margin-top: 10px;">
+
+- Após preencher, clique no botão **"Instalar WordPress"**.
+
+- Em seguida, clique em **"Acessar"** para fazer login.
+
+<img src="https://github.com/KarolDegan/wordpress/blob/main/imagens/segunda.png?raw=true" width="400" height="200"  style="margin-left: 150px; margin-bottom: 20px; margin-top: 10px;">
