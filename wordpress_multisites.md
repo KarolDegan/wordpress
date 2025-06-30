@@ -44,7 +44,7 @@
 - Informe o nome da rede e o email do administrador.
 - clique em instalar
 
-## 5 Configurando os Arquivos do WordPress
+### 5 Configurando os Arquivos do WordPress
 
 <img src="https://raw.githubusercontent.com/KarolDegan/wordpress/refs/heads/main/imagens/terceira.png" width="600" height="300"  style="margin-left: 150px; margin-bottom: 20px; margin-top: 10px;">
 
@@ -77,3 +77,15 @@ RewriteRule ^([_0-9a-zA-Z-]+/)?(wp-(content|admin|includes).*) $2 [L]
 RewriteRule ^([_0-9a-zA-Z-]+/)?(.*\.php)$ $2 [L]
 RewriteRule . index.php [L]
 ```
+
+## Criando Novos Sites
+
+<img src="https://raw.githubusercontent.com/KarolDegan/wordpress/refs/heads/main/imagens/quarta.png" width="500" height="400"  style="margin-left: 150px; margin-bottom: 20px; margin-top: 10px;">
+
+- Os sites podem ser administrados pelo painel lateral, em Sites > Todos os Sites.
+- Para adicionar um novo site, vá em Sites > Adicionar Novo.
+- Preencha as seguintes informações:
+  - Endereço do site (URL)
+  - Título do site
+  - Idioma
+  - email do admin. Se o e-mail informado não estiver cadastrado, um novo usuário será criado automaticamente.
