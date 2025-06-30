@@ -25,7 +25,7 @@
 
 - instalr plugin `All-in-One WP Migração e Backup`
 
-### 2
+### 2 Inserir Diretiva Multisite no Arquivo de Configuração
 
 - na pasta xampp\htdocs\wordpress edite o arquivo wp-config.php
 - acrescentar `define( 'WP_ALLOW_MULTISITE', true );` acima da linha `/* That's all, stop editing! Happy publishing. */`
@@ -46,7 +46,7 @@
 
 ## 5 Configurando os Arquivos do WordPress
 
-<img src="https://raw.githubusercontent.com/KarolDegan/wordpress/refs/heads/main/imagens/Terceira.png" width="600" height="300"  style="margin-left: 150px; margin-bottom: 20px; margin-top: 10px;">
+<img src="https://raw.githubusercontent.com/KarolDegan/wordpress/refs/heads/main/imagens/terceira.png" width="600" height="300"  style="margin-left: 150px; margin-bottom: 20px; margin-top: 10px;">
 
 - no arquivo wp-config.php copie o trecho fornecido e cole acima da linha: `/* That's all, stop editing! Happy publishing. */`
 
