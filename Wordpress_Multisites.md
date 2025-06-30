@@ -46,6 +46,8 @@
 
 ## 5 Configurando os Arquivos do WordPress
 
+<img src="https://raw.githubusercontent.com/KarolDegan/wordpress/refs/heads/main/imagens/Terceira.png" width="600" height="300"  style="margin-left: 150px; margin-bottom: 20px; margin-top: 10px;">
+
 - no arquivo wp-config.php copie o trecho fornecido e cole acima da linha: `/* That's all, stop editing! Happy publishing. */`
 
 - no arquivo .htaccess na mesma pasta. Substitua o conteúdo atual do arquivo pelo código fornecido na instalação da rede.
