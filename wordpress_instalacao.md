@@ -71,7 +71,10 @@
 - Em seguida, clique em **"Acessar"** para fazer login.
 
 <img src="https://github.com/KarolDegan/wordpress/blob/main/imagens/segunda.png?raw=true" width="400" height="200"  style="margin-left: 150px; margin-bottom: 20px; margin-top: 10px;">
+<<<<<<< HEAD:docwordpress.md
 
 ## acessar painel de controle do w
 - ativar XAMPP
 - http://localhost/wordpress/wp-admin/ no navegador
+=======
+>>>>>>> a93682411ae292ebef9e43d9aa098d205f99e09e:wordpress_instalacao.md
