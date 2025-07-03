@@ -1,61 +1,20 @@
-## criando um tema para o wordpress
+# Compartilhar a sua pagina com outras pessas na mesma rede
 
-- minicurso Marcelo Xavier Vieira Youtube
+## Apache
 
-- xampp\htdocs : precisa ser criada aqui
+- wp_config.php
+`define('WP_HOME','http://192.168.1.100/wordpress');`
+`define('WP_SITEURL','http://192.168.1.100/wordpress');`
 
-- mudar o prefixo das tabelas por segurança
-
-
-## Multisites
-
-- gerenciar multiplos sites com um pinel de controle
-- conteuso e funcionalidades semelantes
-
-### subdiretórios
-
-- exemplo.com/site1
-- exemplo.com/site2
-
-### subdomínios
-
-site1.exemplo.com
-sete2.exemplo.com
-
-
-### super Admin
-
-- contola toda a rede de websites 
-- ativam os multisites
-- permissões de usuários
-- instalações de plugns e telas
-
-### site admin
-
-- controla 1 ou mais sites dentro da rede dependendo das permições
-- controla se ativa ou desativa os plugins mas não sobre quias tem acesso
-
-##
-
-- no wp_config.php acrescentar `define( 'WP_ALLOW_MULTISITE', true );`
-- acima da linha `/* That's all, stop editing! Happy publishing. */`
-
-## All-in-One WP Migração e Backup
-
-- fazer backup
-
-## desativar plugins
-
-- entrar em ferramentas: instalação da rede
-- escolher emntre subdiretório e subdomínios
-- nome da rede e email do administrador
-- instalar
-
-## Habilitando a rede
-
-### acrescentar código no arquivo de configuração
-- wp-config.php
-- colar o que for apresentado acima da linha `/* That's all, stop editing! Happy publishing. */`
-
-- htaccess
-- colar o codigo apresentado no lugar do que estiver no arquivo
+- httpd-vhosts.conf
+```bash
+    <VirtualHost *:80> #define a porta 80, mudar isso levaria a mudar alguns outros arquivos como
+    DocumentRoot "C:/xampp/htdocs" # os arquivos servidos no site estão a pasta htdocs
+    ServerName 192.168.1.100    # diz que o virtualhost será usado com esta URL
+    <Directory "C:/xampp/htdocs"> # configura permissões para a pastas do site
+        Options Indexes FollowSymLinks
+        AllowOverride All
+        Require all granted
+    </Directory>
+    </VirtualHost>
+```

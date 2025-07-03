@@ -35,7 +35,7 @@
   
 - Com o banco de dados `wordpress` selecionado, vá até a aba “Privilégios” no menu superior e clique em “Adicionar conta de usuário”.
 
-- Dê um nome para o usuário e coloque o Nome do Host como `localhost`.
+- Dê um nome para o usuário e coloque o Nome do Host como `localhost`. ****
 
 - Selecione a opção “conceder todos os privilégios no banco de dados wordpress”.
 
@@ -71,3 +71,7 @@
 - Em seguida, clique em **"Acessar"** para fazer login.
 
 <img src="https://github.com/KarolDegan/wordpress/blob/main/imagens/segunda.png?raw=true" width="400" height="200"  style="margin-left: 150px; margin-bottom: 20px; margin-top: 10px;">
+
+## acessar painel de controle do w
+- ativar XAMPP
+- http://localhost/wordpress/wp-admin/ no navegador
