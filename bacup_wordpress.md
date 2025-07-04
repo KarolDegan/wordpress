@@ -9,7 +9,7 @@
 - Vá até a aba "Exportar".
 - Clique em "Exportar" para baixar o arquivo .sql.
 
-<img src="" width="400" height="400"  style="margin-left: 150px; margin-bottom: 20px; margin-top: 10px;">
+<img src="https://raw.githubusercontent.com/KarolDegan/wordpress/refs/heads/main/imagens/quinta.png" width="400" height="400"  style="margin-left: 150px; margin-bottom: 20px; margin-top: 10px;">
 
 ### Salvar os Arquivos do Site
  
