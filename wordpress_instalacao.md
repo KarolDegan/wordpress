@@ -64,7 +64,7 @@
 
 - Preencha os campos do formulário com as informações do seu site.
 
-<img src="https://github.com/KarolDegan/wordpress/blob/main/imagens/promeira.png?raw=true" width="400" height="400"  style="margin-left: 150px; margin-bottom: 20px; margin-top: 10px;">
+<img src="https://raw.githubusercontent.com/KarolDegan/wordpress/refs/heads/main/imagens/primeira.png" width="400" height="400"  style="margin-left: 150px; margin-bottom: 20px; margin-top: 10px;">
 
 - Após preencher, clique no botão **"Instalar WordPress"**.
 

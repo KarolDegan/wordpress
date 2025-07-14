@@ -9,7 +9,7 @@
 - Vá até a aba **Exportar**.
 - Clique em **Exportar** para baixar o arquivo .sql.
 
-<img src="https://raw.githubusercontent.com/KarolDegan/wordpress/refs/heads/main/imagens/quinta.png" width="600" height="200"  style="margin-left: 150px; margin-bottom: 20px; margin-top: 10px;">
+<img src="https://raw.githubusercontent.com/KarolDegan/wordpress/refs/heads/main/imagens/quinta.png" width="800" height="400"  style="margin-left: 150px; margin-bottom: 20px; margin-top: 10px;">
 
 ### Salvar os Arquivos do Site
 
@@ -39,14 +39,38 @@ Copie os seguintes arquivos e pastas do diretório WordPress:
 
 ## Restaurando o site a partir do backup parcial
 
-- substituir os arquivos pelos arquivos de backup
+### Restaurando os Arquivos
 
-### backup do banco
+- Substitua os arquivos existentes na instalação atual pelos arquivos do seu backup parcial:
 
-- provavelmente a melhor opção a melhor opção é apagar o banco e subir ele novamente com o seu backup
+  - wp-content/plugins/
+  - wp-content/themes/
+  - wp-content/uploads/
+  - wp-config.php
+  - .htaccess (se aplicável)
 
-- apague seu banco wordpress
+### Restaurando o Banco de Dados
 
-- crie um mesmo banco seguindo as mesmas configurações de nome, usuário, senha, host, charset, definidas no arquivo `wp-config.php`
+- Acesse o phpMyAdmin
 
-- 
+- Apague o banco de dados atual (caso esteja corrompido ou desatualizado).
+
+- Crie um novo banco de dados com as mesmas configurações do antigo:
+  
+  - Nome do banco
+  - Usuário
+  - Senha
+  - Host
+  - Charset
+
+    Essas informações devem corresponder ao que está definido no arquivo wp-config.php. Se necessário, edite o wp-config.php para refletir as novas configurações do banco.
+
+- Selecione o banco de dados recém-criado.
+
+- Vá até a aba Importar.
+
+<img src="https://raw.githubusercontent.com/KarolDegan/wordpress/refs/heads/main/imagens/sexta.png" width="800" height="400"  style="margin-left: 150px; margin-bottom: 20px; margin-top: 10px;">
+
+- Clique em Escolher arquivo e selecione o seu backup do banco de dados (extensão .sql).
+
+- Clique em Importar para concluir o processo.
